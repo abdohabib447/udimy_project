@@ -167,11 +167,13 @@ class _State extends State<BMICalcscreen> {
                         mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             FloatingActionButton(onPressed: () {
+                              var heroTag='c1';
                               setState(() {
                                 age--;
                               });
                             } , child: Icon(Icons.remove), mini: true,),
                             FloatingActionButton(onPressed: () {
+                              var heroTag='d--';
                               setState(() {
                                 age++;
                               });
