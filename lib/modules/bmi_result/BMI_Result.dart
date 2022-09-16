@@ -10,12 +10,6 @@ class bmiResult extends StatelessWidget {
           required this.isMale,
           required this.age,}
         );
-
-
-
-
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
